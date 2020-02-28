@@ -1,0 +1,12 @@
+Bundle-Name: ramal-facil
+Bundle-SymbolicName: ramal.facil
+Bundle-Version: 1.0.0
+Export-Package: ramal.facil.constants
+-contract: JavaPortlet,JavaServlet
+-jsp: *.jsp,*.jspf
+-metatype: *
+-plugin.jsp: com.liferay.ant.bnd.jsp.JspAnalyzerPlugin
+-plugin.resourcebundle: com.liferay.ant.bnd.resource.bundle.ResourceBundleLoaderAnalyzerPlugin
+-plugin.sass: com.liferay.ant.bnd.sass.SassAnalyzerPlugin
+-sass: *
+Liferay-JS-Config: /META-INF/resources/config.js
